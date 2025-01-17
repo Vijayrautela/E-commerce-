@@ -384,9 +384,8 @@ button.normal{
     padding: 75px;
     background-color: #ececec;
   }
-  #footer div{
-    border: none;
-  }
+  /* #footer div{
+  } */
   #footer p, #footer a{
     color: rgb(109, 109, 109);
     text-decoration: none;
@@ -407,4 +406,38 @@ button.normal{
     border-radius: 7px;
   }
   
-  
+  /* responsive  */
+
+
+  @media (max-width: 420px) {
+    #header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   }
+   .header-logo img {
+    height: 50px;
+    width: 50px;
+   }
+   .header-list li{
+    width: 20vw;
+   }
+   .fa-solid fa-cart-shopping{
+    display: none;
+   }
+   #hero{
+    margin-top: 150px;
+   }
+   /* .header-list{
+    display: flex;
+    flex-direction: column;
+} */
+
+.f-section-p1{
+    margin-left:20px ;
+    margin-right: 10px;
+}
+   .section-p1{
+    overflow: scroll;
+   }
+  }
